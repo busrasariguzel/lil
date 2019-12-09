@@ -23,7 +23,7 @@ describe('Node.value', () => {
     expect(node1.value).toBe(3);
     expect(node2.value).toBe('hi');
   })
-})
+})   
 
 describe('Node.next', () => {
   it(`begins as a null value`, () => {
@@ -63,6 +63,7 @@ describe('Lil.values', () => {
     }
 
     lil.head = node1;
+    
 
     expect(lil.values()).toEqual([15, 5, 3]);
   })
